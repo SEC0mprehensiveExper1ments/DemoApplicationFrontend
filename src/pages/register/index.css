@@ -1,0 +1,41 @@
+#register {
+    background-image: url("./background.svg");
+}
+
+#register .register-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 44px;
+    line-height: 44px;
+    margin-bottom: 50px;
+}
+
+#register .register-title {
+    position: relative;
+    top: 2px;
+    color: rgba(0,0,0,.85);
+    font-weight: 600;
+    font-size: 33px;
+}
+
+#register .register-logo {
+    width: 44px;
+    height: 44px;
+    margin-right: 16px;
+    vertical-align: top;
+}
+
+#register .register-form-container {
+    text-align: left;
+    width: 600px;
+    margin-left: 260px;
+}
+
+#register .register-submit-button {
+    width: 180px;
+    height: 50px;
+    font-size: 18px;
+    margin-left: 80px;
+    margin-top: 30px;
+}

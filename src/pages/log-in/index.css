@@ -1,0 +1,83 @@
+#log-in {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: auto;
+    background: #f0f2f5 url("./background.svg");
+}
+
+#log-in .top-pad {
+    height: 100px;
+}
+
+#log-in .login-container {
+    text-align: center;
+    width: 328px;
+    margin: 0 auto;
+}
+
+#log-in .login-form {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: rgba(0,0,0,.85);
+    font-size: 14px;
+    font-variant: tabular-nums;
+    line-height: 1.5715;
+    list-style: none;
+    font-feature-settings: "tnum","tnum";
+}
+
+#log-in .login-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 44px;
+    line-height: 44px;
+}
+
+#log-in .login-logo {
+    width: 44px;
+    height: 44px;
+    margin-right: 16px;
+    vertical-align: top;
+}
+
+#log-in .login-title {
+    position: relative;
+    top: 2px;
+    color: rgba(0,0,0,.85);
+    font-weight: 600;
+    font-size: 33px;
+}
+
+#log-in .login-desc {
+    margin-top: 12px;
+    margin-bottom: 40px;
+    color: rgba(0,0,0,.45);
+    font-size: 14px;
+}
+
+#log-in .login-username {
+    width: 100%;
+    height: 40px;
+}
+
+#log-in .login-password {
+    width: 100%;
+    height: 40px;
+}
+
+#log-in .login-form-register {
+    float: right;
+}
+
+#log-in .ant-col-rtl .login-form-register {
+    float: left;
+}
+
+#log-in .login-form-button {
+    width: 100%;
+    height: 40px;
+    font-size: 16px;
+}

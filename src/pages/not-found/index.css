@@ -1,0 +1,8 @@
+#not-found {
+    text-align: center;
+}
+
+#not-found > img {
+    width: 50%;
+    height: 50%;
+}
